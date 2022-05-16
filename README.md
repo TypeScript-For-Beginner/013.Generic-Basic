@@ -1,6 +1,8 @@
 # 013.Generic-Basic
 
-김민영 13. 제네릭 기초
+# 김민영 13. 제네릭 기초
+
+## 제네릭이란 무엇일까?
 
 ```TypeScript
 function helloString(message: string): string {
@@ -48,6 +50,8 @@ console.log(hello(30).length); // undefined
 ![](https://velog.velcdn.com/images/minyoungdumb/post/19b79ad5-2891-465f-9268-cda2b24c047f/image.png)
 
 이런 문제를 해결하기 위해 인자로 들어가는 타입을 변수로 활용해서 return되는 타입에 연관을 시켜주면 어떨까? 이 아이디어에서 출발한 것이 generic이다.
+
+## 제네릭 기초
 
 그렇다면 제네릭을 어떻게 사용하는지 한 번 알아보자.
 
